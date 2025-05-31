@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+}
+footer{
+    border-top: .1rem solid pink;
+    box-shadow: ;
+}
+footer h1{
+    text-align: center;
+    padding: 1rem;
+}
+footer p{
+    text-align: justify;
+    line-height: 1.2;
+    margin: 1rem;
+}
