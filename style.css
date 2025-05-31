@@ -6,17 +6,27 @@
     outline: none;
     text-decoration: none;
     font-family: "Quicksand", sans-serif;
+    color: #1B1B1B;
+}
+h1, h2, h3 {
+    font-family: Corinthia;
+    text-align: center;
+    font-size: 3rem;
+    color: #ED716B;
+}
+p{
+    font-size: 1.8rem;
 }
 footer{
-    border-top: .1rem solid pink;
-    box-shadow: ;
+    background: #FDA49F;
 }
 footer h1{
+    font-family: Corinthia;
     text-align: center;
     padding: 1rem;
+    color: #1B1B1B;
 }
 footer p{
     text-align: justify;
-    line-height: 1.2;
-    margin: 1rem;
+    line-height: 1.8;
 }
