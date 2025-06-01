@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sue+Ellen+Francisco&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #8a71c9;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 22px;
+    font-style: italic;
+}
+
+p{
+    font-size: 20px;
+}
+a{
+    color: #FFD700;
+    font-weight: 700;
+    line-height: 2;
+    font-size: 20px;
+}
+a:hover{
+    opacity: .8;
+}
+img{
+    border-radius: .5rem;
+    width: 100%;
+}
+h2{
+    color: #2a0074;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 2.5rem;
+}
+.inf {
+    color: #04ff95;
+    font-size: 2rem;
+}
+.juv {
+    color: #ff9e9e;
+    font-size: 2rem;
+}
+.adul {
+    color: #ffe36d;
+    font-size: 2rem;
+}
+section{
+    max-width:60%;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    background: #111440;
+    color: #fff;
+}
+footer h1{
+    margin: .5rem;    
+}
+footer p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #111440;
+    color: #fff;
+}
+span{
+    color: #288B9A;
+}
+header a h5{
+    margin: .5rem;
+    font-family: "Sue Ellen Francisco", cursive;
+    color: #fff;
+    font-size: 20px;
+}
