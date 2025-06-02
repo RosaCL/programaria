@@ -11,6 +11,7 @@ body{
     background: #8a71c9;
     text-align: center;
     font-family: "Nunito Sans", sans-serif;
+    color: #fff;
 }
 h1{
     font-size: 60px;
@@ -58,8 +59,11 @@ h2{
     font-size: 2rem;
 }
 section{
-    max-width:60%;
+    width:60%;
     margin: 0 auto;
+}
+section section{
+    width: 100%;
 }
 footer {
     text-align: center;
@@ -89,4 +93,28 @@ header a h5{
     font-family: "Sue Ellen Francisco", cursive;
     color: #fff;
     font-size: 20px;
+}
+.navbar{
+    background: #FF6CB5;
+    height: 40px;   
+    max-width:60%;
+    margin: 0 auto;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: normal;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+.btn{
+    background: #41f341;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 2px 20px;
+    color: black;
+
 }
